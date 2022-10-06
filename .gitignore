@@ -7,3 +7,5 @@
 /*.tfstate.backup
 /*.tfvars
 /crash.log
+venv
+registry.terraform.io

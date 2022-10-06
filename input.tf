@@ -62,12 +62,12 @@ variable "cluster_authorized_ssh_keys" {
 
 variable "cluster_node_image" {
   type    = string
-  default = "ubuntu-20.04"
+  default = "ubuntu-22.04"
 }
 
 variable "k8s_version" {
   type    = string
-  default = "1.21.4"
+  default = "1.25.2"
 }
 
 variable "k8s_version_label_key" {
