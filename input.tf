@@ -67,7 +67,7 @@ variable "cluster_node_image" {
 
 variable "k8s_version" {
   type    = string
-  default = "1.25.2"
+  default = "1.24.6"
 }
 
 variable "k8s_version_label_key" {
